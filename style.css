@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --white: #f9f9f9;
+  --white-200: #ebe9ea;
+  --gray: #474747;
+  --black-light: #181818;
+  --bg-banner: url(./img/wallpaper.jpeg);
+  --bg-banner-desk: url(./img/Air-Jordan-1-Retro-Desk.jpg);
+}
+
+body {
+  font-family: "Montserrat";
+  font-size: 1.6rem;
+}
+
+#anuncio {
+  top: 0;
+  width: 100%;
+  height: 6rem;
+  background: var(--black-light);
+}
+
+#anuncio h4 {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 196.19%;
+
+  display: flex;
+  justify-content: center;
+  padding-block: 1.5rem;
+
+  color: var(--white);
+}
+
+#logo {
+  top: 0;
+  width: 100%;
+  height: 6rem;
+  background: var(--white);
+}
+
+#logo h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+
+  display: flex;
+  justify-content: center;
+  padding-block: 1.5rem;
+
+  color: var(--black-light);
+}
+
+#header {
+  height: 37.7rem;
+  background: var(--black-light);
+}
+
+#header .banner-content {
+  display: flex;
+  flex-direction: column;
+
+  text-align: left;
+  width: 100%;
+
+  padding-block: 12.2rem;
+  padding-inline: 3rem;
+  gap: 1.5rem;
+}
+
+.banner-content h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 3.4rem;
+
+  color: var(--white);
+}
+
+.banner-content p {
+  font-style: normal;
+  line-height: 100%;
+
+  color: var(--white);
+}
+
+#highlights .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 5rem;
+  padding-bottom: 5.9rem;
+  gap: 0.5rem;
+  text-align: center;
+}
