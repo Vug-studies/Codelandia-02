@@ -1,3 +1,4 @@
+/* === Configurações Gerais === */
 * {
   margin: 0;
   padding: 0;
@@ -19,58 +20,63 @@ body {
   font-size: 1.6rem;
 }
 
-#anuncio {
+/* === Announcement === */
+#announcement {
   top: 0;
   width: 100%;
   height: 6rem;
+
   background: var(--black-light);
 }
 
-#anuncio h4 {
-  font-style: normal;
-  font-weight: 500;
-  line-height: 196.19%;
-
+#announcement h4 {
   display: flex;
   justify-content: center;
   padding-block: 1.5rem;
 
+  font-style: normal;
+  font-weight: 500;
+  line-height: 196.19%;
+
   color: var(--white);
 }
 
+/* === Logotipo === */
 #logo {
   top: 0;
   width: 100%;
   height: 6rem;
+
   background: var(--white);
 }
 
 #logo h3 {
+  display: flex;
+  justify-content: center;
+  padding-block: 1.5rem;
+
   font-style: normal;
   font-weight: 600;
   font-size: 2.4rem;
   line-height: 2.9rem;
 
-  display: flex;
-  justify-content: center;
-  padding-block: 1.5rem;
-
   color: var(--black-light);
 }
 
+/* === Header === */
 #header {
   height: 37.7rem;
-  background: var(--black-light) var(--bg-banner-desk);
+  background: var(--black-light) var(--bg-banner-desk) center;
   background-repeat: no-repeat;
 }
 
 #header .banner-content {
+  width: 100%;
+
   display: flex;
   flex-direction: column;
 
   text-align: left;
-  width: 100%;
-
   padding-block: 12.2rem;
   padding-inline: 3rem;
   gap: 1.5rem;
@@ -92,37 +98,41 @@ body {
   color: var(--white);
 }
 
+/* === Highlights === */
 #highlights .content {
   display: flex;
   flex-direction: column;
   align-items: center;
 
+  text-align: center;
   padding-top: 5rem;
   padding-bottom: 5.9rem;
+
   gap: 0.5rem;
-  text-align: center;
 }
 
-#shoes {
+/* === Products List === */
+#products {
   max-width: 192rem;
+
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  align-items: center;
+
   flex-wrap: wrap;
   margin: 0 auto;
 
   gap: 3rem;
 }
 
-#shoes .card {
+#products .card {
+  width: 37.4rem;
+  height: 30.2rem;
+
   display: flex;
   justify-content: center;
   align-items: center;
-
-  width: 37.4rem;
-  height: 30.2rem;
 
   background: var(--white-200);
 }
@@ -132,8 +142,9 @@ body {
   height: 15rem;
 }
 
+/* === Footer === */
 footer {
-  width: auto;
+  width: 100%;
   height: 5rem;
 
   display: flex;
